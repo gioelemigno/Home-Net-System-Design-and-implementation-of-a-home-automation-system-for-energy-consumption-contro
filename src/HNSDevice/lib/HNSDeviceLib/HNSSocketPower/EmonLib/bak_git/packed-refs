@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+7685720ab391b14edb218151c1d5d3ebc1fd1ec1 refs/remotes/origin/Dev
+fb036405b5e48fe6adc46319d9b761b895528d7d refs/remotes/origin/STM32
+02d21ad457d4bc42b386c9952e21e552d7847e41 refs/remotes/origin/master
+9b22722b38d5b2ad74223b16da3764136d69b2de refs/tags/1.0
+^7685720ab391b14edb218151c1d5d3ebc1fd1ec1
+e911c2adcc31b6bb134c6ac7ce934224d6fc0616 refs/tags/1.1.0
+^7d7abb7907e0789998d8588bf79e5ffb247fd978

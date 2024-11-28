@@ -1,0 +1,20 @@
+#example HNSSocket
+#info
+	MAC HNSHub: 00 E3 E4 BF FF 12
+	HNSCode: F3 F9 23 02
+
+topic:	
+	custum/<HNSModel><least 4 digits HNSCode><least 4 digits MAC HNSHub>/announce
+	custom/HNSSocket2302FF12/announce
+
+payload: (File JSON)
+    {
+      "type": "S",
+      "device_id": "HNSSocket2302FF12",
+      "object_id": "",
+      "sub_id": 0, //specific sensor/relay
+      "ip_address": "192.168.12.116",
+      "sub_type:": "power",
+      "update_topic": "custom/HNSSocket2302FF12/0/power",
+      "command_topic": "custom/HNSSocket2302FF12/0/command"
+    }
